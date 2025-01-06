@@ -1,3 +1,5 @@
+import DishCard from "@/components/DishCard";
+
 export default function Home() {
   return (
     <main id="main-backdrop" className="relative">
@@ -7,6 +9,7 @@ export default function Home() {
           <h2 className="scroll-m-20  text-3xl font-semibold tracking-tight first:mt-0">
             Danjon <span className="text-primary-foreground">Meshi</span>
           </h2>
+          <DishCard />
         </div>
       </div>
     </main>
