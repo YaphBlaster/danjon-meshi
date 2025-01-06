@@ -6,6 +6,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#main-backdrop {
+  background: #9e2826 url("../assets/background.webp") repeat-y center top;
+  background-size: 100%;
+  height: 100vh;
+}
+
+.part-body-main {
+  position: relative;
+  width: 100%;
+  padding: 2.5vw 0;
+}
+
+.body-main-frame {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../assets/frame-mdl.webp") repeat-y center center;
+  background-size: 100%;
+  z-index: 50;
+  pointer-events: none;
+}
+
 .body-main-frame:before {
   content: "";
   width: 100%;
